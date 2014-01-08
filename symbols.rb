@@ -1,3 +1,4 @@
+dummy change
 # Symbols
 
 
@@ -26,7 +27,7 @@ puts "['hello', 14] has an object_id of #{a1.object_id}"
 puts "Another array instance with the same values ['hello', 14] has a different object_id of #{a2.object_id}"
 
 ############Exit Program #######################
-exit 
+exit
 
 puts "\nThree different instances of a String with the same value each have thier own object id"
 puts "mebee".object_id  # every object in Ruby get a uniqie object id when it's created.
@@ -39,7 +40,7 @@ puts :mebee.object_id
 puts :mebee.object_id  # they all have the same object id because we can ONLY create one symbol value!
 
 ######################################
-# Notes: 
+# Notes:
 ######################################
 
 # Symbols are immutable strings. And they save memory by not creating
